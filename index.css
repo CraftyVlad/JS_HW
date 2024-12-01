@@ -1,0 +1,20 @@
+body {
+	background-color: antiquewhite;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+}
+
+#applyStyles {
+	margin-top: 1%;
+}
+
+#output {
+	word-wrap: break-word;
+	padding: 1%;
+	border: 1px grey solid;
+	border-radius: 2px;
+}

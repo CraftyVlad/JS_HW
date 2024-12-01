@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS HW</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <label><input type="checkbox" id="bold">Bold</label>
+            <label><input type="checkbox" id="underline">Underline</label>
+            <label><input type="checkbox" id="italics">Italics</label>
+            <label><input type="radio" name="align" value="left" checked>Left</label>
+            <label><input type="radio" name="align" value="right">Right</label>
+            <label><input type="radio" name="align" value="justify">Justify</label>
+        </div>
+        <textarea id="inputText" placeholder="Type your text here"></textarea>
+        <button type="button" id="applyStyles">Show text</button>
+    </form>
+    <div>
+        <h4>Result:</h4>
+        <div id="output" class="output"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
